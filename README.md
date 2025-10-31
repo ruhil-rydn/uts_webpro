@@ -1,1 +1,2 @@
-Open the branch master to see the final project
+Open the master branch to see the final project,
+because the folder in Main is very messy 🙏🏻
