@@ -39,9 +39,8 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `status`, `activation_token`, `reset_token`, `reset_token_expiry`, `created_at`) VALUES
-(2, 'yah', 'harik12@gmail.com', '$2y$10$KoQE5fu.mxiOVFnsWtIHMe6S/KJw171Rs3DgvbiD/5FQ/lNRJvVUS', 'admin_gudang', 1, NULL, NULL, NULL, '2025-10-30 01:50:00'),
-(3, 'ray', 'rik12@gmail.com', '$2y$10$6NS6Qa1pPCNazxMBtT98ieMPQo8jOQ/yTPeF6yv3UIqe2FkPsO9xy', 'admin_gudang', 1, NULL, '5a084bb6024626dbda1b860a6113cc13bd1d6d74ace660b6d878dfb63abe3a7c', '2025-10-30 04:35:05', '2025-10-30 02:27:16'),
-(4, 'arab', 'yb12@gmail.com', '$2y$10$zrvStGddJr4n4ogsTpdrJ.bjQfOWNKiZMZ9C5CPtq280Dx1QnPWBe', 'admin_gudang', 1, NULL, NULL, NULL, '2025-10-30 02:36:13');
+(1, 'Inkeu', 'riyadiniruhil@gmail.com', '$2y$10$rJ5PjZxTauaBZu.NULX2qus4JJsoIVP5kp9CAdzwHks', 'admin_gudang', 1, NULL, NULL, NULL, '2025-10-30 11:19:10'),
+(2, 'ing', 'hdpingg@gmail.com', '$2y$10$osbCgT9SjiTo3ivlK0YcN.ZKGu1jybfsPqs0sF93HKP', 'admin_gudang', 1, NULL, NULL, NULL, '2025-10-30 11:37:12');
 
 -- Indexes for table `products`
 ALTER TABLE `products`
